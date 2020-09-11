@@ -20,8 +20,13 @@ const redFrom = 0xFA646E,
 
 
 // Absolute
-const objectVelocityAbsolute = 12,
-  tickerSpeedAbsolute = 0.8;
+const objectVelocityAbsolute = 40,
+  tickerSpeedAbsolute = 0.08,
+  maxSpeed = 32;
+
+
+const cursorM = 400,
+  gravity = 10;
 
 
 // Size

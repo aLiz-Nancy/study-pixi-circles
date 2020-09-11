@@ -9,18 +9,30 @@ const circlesContainer = new PIXI.Container(); // const circle1 = new PIXI.Graph
 // const circle2 = circle1.clone();
 
 const circles = [{
+  m: 100,
+  ax: 100,
+  ay: 0,
   vx: 0,
   vy: 0,
   sprite: createGradientCircle(0, 0, 320, redFrom, redTo)
 }, {
+  m: 100,
+  ax: 0,
+  ay: 0,
   vx: 0,
   vy: 0,
   sprite: createGradientCircle(0, 0, 320, greenFrom, greenTo)
 }, {
+  m: 100,
+  ax: 0,
+  ay: 0,
   vx: 0,
   vy: 0,
   sprite: createGradientCircle(0, 0, 320, blueFrom, blueTo)
 }, {
+  m: 100,
+  ax: 0,
+  ay: 0,
   vx: 0,
   vy: 0,
   sprite: createGradientCircle(0, 0, 320, orangeFrom, orangeTo)

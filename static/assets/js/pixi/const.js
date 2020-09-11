@@ -16,8 +16,11 @@ const redFrom = 0xFA646E,
       orangeFrom = 0xFF9B0A,
       orangeTo = 0xF5C30A; // Absolute
 
-const objectVelocityAbsolute = 12,
-      tickerSpeedAbsolute = 0.8; // Size
+const objectVelocityAbsolute = 40,
+      tickerSpeedAbsolute = 0.08,
+      maxSpeed = 32;
+const cursorM = 400,
+      gravity = 10; // Size
 
 const objectSizeMax = 280,
       objectSizeMin = 80;
